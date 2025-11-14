@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <title>Altform</title>
+  <head> </head>
+  <center>
+    <p style="margin-left: 20px">
+      Already an AltScholar? <span style="color: blue">Sign In!</span>
+    </p>
+  </center>
+
+  <h1 style="margin-left: 20px">Signup</h1>
+  <p style="margin-left: 20px">
+    Take the next steps to apply at AltSchool Africa
+  </p>
+
+  <form style="margin-left: 20px">
+    <p>
+      <label>First Name</label>
+      <br />
+      <input
+        type="text"
+        style="border-radius: 5px; height: 25px; margin-top:8px;"
+        size="34"
+        placeholder="     First Name"
+      />
+    </p>
+    <p>
+      <label>Last name</label>
+      <br />
+      <input
+        type="text"
+        style="border-radius: 5px; height: 25px; margin-top:8px;"
+        size="34"
+        placeholder="    Lastname"
+      />
+    </p>
+    <p>
+      <label>Email</label>
+      <br />
+      <input
+        type="email"
+        style="border-radius: 5px; height: 25px; margin-top:8px;"
+        size="34"
+        placeholder="    Email"
+      />
+      <br />
+    </p>
+
+    <p>
+      <label>Gender</label>
+      <br />
+      <select
+        size="1"
+        style="
+          width: 263px;
+          border-radius: 5px;
+          height: 25px;
+          border: 2px solid black; margin-top:8px;
+        "
+      >
+        <option style="margin-left: 20px">Select gender</option>
+        <option style="margin-left: 20px">Male</option>
+        <option style="margin-left: 20px">Female</option>
+      </select>
+    </p>
+    <p>
+      <label>Date of Birth</label><br />
+      <input
+        type="date"
+        placeholder=" enter"
+        style="border-radius: 5px; height: 25px; width: 260px ;margin-top:8px;"
+        size="34px"
+      />
+    </p>
+    <p>
+      <label>Phone Number</label><br />
+      <input
+        type="text"
+        style="border-radius: 5px; height: 25px; margin-top:8px; margin-top:8px;"
+        size="34px"
+        placeholder="    Phone Number"
+      />
+    </p>
+    <p>
+      <label>Country of Residence</label><br />
+      <input
+        type="text"
+        style="border-radius: 5px; height: 25px; margin-top:8px;"
+        size="34px"
+        placeholder="    Country of Residence"
+      />
+    </p>
+    <p>
+      <label>State of Residence</label><br />
+      <input
+        type="text"
+        style="border-radius: 5px; height: 25px; margin-top:8px;"
+        size="34px"
+        placeholder="    State of Residence"
+      />
+    </p>
+    <p>
+      <label>Password</label><br />
+      <input
+        type="password"
+        style="border-radius: 5px; height: 25px; margin-top:8px;"
+        size="34px"
+        placeholder="    Password"
+      />
+    </p>
+    <p>
+      <label>Confirm Password</label><br />
+      <input
+        type="password"
+        style="border-radius: 5px; height: 25px; margin-top:8px;"
+        size="34px"
+        placeholder="    Confirm Password"
+      />
+    </p>
+    <p>
+      <label>How did you hear about us?</label><br />
+      <input
+        type="text"
+        style="border-radius: 5px; height: 25px; margin-top:8px;"
+        size="34px"
+        placeholder="    Optional: Let us know how you found us"
+      />
+    </p>
+
+    <p>
+      By clicking continue, I agree to the
+      <span style="color: blue">Terms of Use</span> and acknowledge that I have
+      read the <span style="color: blue">Privacy Policy</span>.
+    </p>
+    <label></label>
+    <center>
+      <button
+        type="submit"
+        style="
+          border-radius: 5px;
+          height: 25px;
+          background-color: blue;
+          color: white;
+          width: 300px;
+          height: 35px;
+        "
+      >
+        <span> Signup</span> &#x2192;
+      </button>
+    </center>
+  </form>
+</html>
